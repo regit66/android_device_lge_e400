@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
 # BT
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/init.qcom.bt.sh:system/etc/init.qcom.bt.sh
+    
+# gps
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
 
 # HW HALS
 PRODUCT_PACKAGES += \
