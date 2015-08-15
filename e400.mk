@@ -82,6 +82,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libmm-omxcore \
     libOmxCore
+PRODUCT_COPY_FILES += \
+    device/lge/e400/prebuilt/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_e400
