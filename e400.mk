@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm7x27a \
     copybit.msm7x27a \
     camera.e400 \
-    gps.e400 \
+    gps.msm7x27a \
     audio.a2dp.default \
     audio.primary.msm7x27a \
     audio_policy.msm7x27a \
